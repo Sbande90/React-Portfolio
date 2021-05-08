@@ -1,0 +1,336 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#home{
+  height: 98vw; 
+  
+  margin: 0 !important;
+  display: flex;
+  justify-content: space-around;
+  background-image: url("https://media.giphy.com/media/LrMNKXTTmTIMixEGfb/source.gif"); 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro{
+  margin: auto;
+  color: aliceblue;
+  font-size: 2rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+
+.intro1{
+  text-align: center;
+}
+
+.img-profile {
+  max-width: 9.4rem;
+  max-height: 12rem;
+  border: .4rem solid rgb(41, 5, 97);
+  text-align: center;
+  margin-left: 30px;
+}
+/* .mb-3{
+  margin-bottom: 1rem!important; */
+/* } */
+.rounded-circle {
+  border-radius: 50%!important;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+* {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+}
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+.large {
+  width: 250px;
+  height: 100%;
+  flex-direction: column;
+  border-right: 3px solid rgb(41, 5, 97);
+  border-bottom: none;
+  letter-spacing: 4px;
+  line-height: 60px;
+  position: fixed;
+  padding-top: 7%;
+  overflow: scroll;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  min-height: 8vh;
+  background-color: rgb(255, 245, 234);
+  font-family: 'Poppins', sans-serif;
+  z-index: 3;
+  padding-left: 20px;
+  top: 0;
+}
+
+.skills-text {
+  bottom: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: rgb(41, 5, 97);
+  font-size: 24px;
+  letter-spacing: 1px;
+  padding-bottom: 70px;
+}
+
+#about-text {
+  bottom: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: rgb(41, 5, 97);
+  font-size: 24px;
+  letter-spacing: 1px;
+  padding-bottom: 70px;
+}
+
+#about-header, #skills-header {
+  font-family: 'Oswald', sans-serif;
+  color: rgb(41, 5, 97);
+  font-weight: bolder;
+  font-size: 50px;
+  letter-spacing: 3px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+/* new style*/
+#contact { 
+  /* padding-top: 95px;
+  background-size: cover; */
+  background-color: #4B5C54; 
+  /* padding: 10%;
+  width: 100%;
+  height: 100vh; */
+}  
+
+article, aside, figcaption, figure, footer, header, hgroup, main, section {
+  display: block;
+}
+a#linked, a#git, #bar {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: rgb(68, 61, 73);
+  display: inline;
+  text-decoration: underline;
+  font-size: 38px;
+}
+a#linked, a#git, #bar {
+  font-size: 32px !important;
+}
+
+#contact-info {
+  list-style-type: none;
+  font-family: 'Oswald', sans-serif;
+  color: rgb(255, 245, 234);
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  text-shadow: -3px 0 rgb(41, 5, 97), 0 1px rgb(41, 5, 97), 1px 0 rgb(41, 5, 97), 0 -1px rgb(41, 5, 97);
+  padding-top: 55px;
+  letter-spacing: 3px;
+  text-align: center;
+  line-height: 60px;
+}
+
+#contact-header {
+  font-family: 'Oswald', sans-serif;
+  /* color: rgb(255, 245, 234); */
+  color: rgb(41, 5, 97);
+  text-transform: uppercase;
+  font-size: 55px;
+  text-shadow: -1px 0 rgb(41, 5, 97), 0 1px rgb(41, 5, 97), 1px 0 rgb(41, 5, 97), 0 -1px rgb(41, 5, 97);
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: bolder;
+}
+.icons {
+  color: rgb(42, 38, 255) !important;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.github{
+  text-decoration: none !important;
+}
+#projects-header {
+  /* padding-left: 250px; */
+  font-family: 'Oswald', sans-serif;
+  color: rgb(41, 5, 97);
+  font-weight: bolder;
+  font-size: 50px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.img{
+  border-radius: 5px;
+  border: 1px black solid;
+}
+.code-refactor {
+  bottom: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: rgb(41, 5, 97);
+  font-size: 24px;
+  letter-spacing: 1px;
+  
+}
+#projects{
+  text-align: center;
+  background-color: #4B5C54; 
+  max-height: 100vh;
+  overflow-y: auto;  
+}
+.selected{
+  background-color: rgb(28, 28, 29);
+  color: white;
+  border-radius: 5px;
+  text-decoration: none !important; 
+}
+.mobile-link{
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+#about{
+  background-color: #4B5C54;
+  width: 100%;
+}
+
+
+footer {
+  padding: 30px;
+  clear: both;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  color: white;
+  
+}
+
+footer  {
+  font-size: 20px;
+  color: black;
+  
+}
+
+#about-block{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 98vh;
+}
+#skills{
+  width: 300px;
+  padding-left: 80px;
+}
+
+#who-i-am{
+  display: flex;
+  flex-direction: column;
+}
+
+#photo{
+  background-image: url(./images/mypic.jpeg);
+  width: 300px;
+  height: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+
+
+#introduction{
+  max-width: 400px;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.skill{
+  margin: 15px 7px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.project-block{
+  margin: 20px;
+}
+
+#flex1{
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+
+}
+
+nav{
+  background-color: aquamarine !important;
+
+}
+
+#skills {
+  float: right;
+  width: 500px;
+  height: 90%;
+  max-height: 90%;
+}
+
+#skills .skill1 {
+  -webkit-clip-path: polygon(100% 100%, 100% 0, 87% 8%, 12% 9%, 0 0, 0 100%, 15% 93%, 87% 92%);
+          clip-path: polygon(100% 100%, 100% 0, 87% 8%, 12% 9%, 0 0, 0 100%, 15% 93%, 87% 92%);
+  width: 50%;
+  height: 5%;
+  list-style: none;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+  /* margin-left: 20%; */
+  border-radius: 15px;
+  background-color:white;
+  padding: 5px;
+  text-align: center;
+}
+a, #bar {
+    color: white !important;
+}
+
+#com, #git, #number, #linked {
+    color: rgb(150, 150, 248) !important;
+}
+
+.navbar-brand {
+    color: black !important;
+}
