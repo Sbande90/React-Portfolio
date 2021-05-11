@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import about from "./component/about";
 import Footer from "./component/footer";
 import Header from "./component/header";
-// import Contact from "./component/pages/Contact";
+import contact from "./component/contact";
 import project from "./component/project";
 
 function App() {
@@ -19,6 +19,7 @@ function App() {
         <Route exact path="/" component={home} />
         <Route exact path="/project" component={project} />
         <Route exact path="/about" component={about} />
+        <Route exact path="/contact" component={contact} />
         {/* <Route exact path="/blog" component={Blog} />
         <Route path="/contact" component={Contact} /> */} 
       </div>

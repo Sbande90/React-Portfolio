@@ -67,8 +67,8 @@ function App() {
     <div className="App">
       <header className="jumbotron">
         <h1>
-          {" "}
-          <strong>Salfo Bande</strong>
+          {/* {" "} */}
+          <strong>Project</strong>
         </h1>
       </header>
       <div className="container">
